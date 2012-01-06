@@ -1,0 +1,3 @@
+[submodule "UserVoiceSDK"]
+	path = UserVoiceSDK
+	url = git://github.com/uservoice/uservoice-iphone-sdk.git
