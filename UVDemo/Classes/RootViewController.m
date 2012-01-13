@@ -22,7 +22,7 @@
 - (void)launchFeedback {
     // Uncomment this line to see an example of a custom stylesheet
 //    [UVStyleSheet setStyleSheet:[[[DemoStyleSheet alloc] init] autorelease]];
-    
+    [UserVoice setDelegate:self];
     [UserVoice presentUserVoiceModalViewControllerForParent:self
 													andSite:@"demo.uservoice.com"
 													 andKey:@"pZJocTBPbg5FN4bAwczDLQ"
@@ -32,7 +32,7 @@
 /**
  * Launch UserVoice with an SSO token.
  *
- * This will automatically find or create an account using the supplied token.
+ * Use this if you are using SSO to connect your users to UserVoice across multiple platforms.
  *
  * See http://developer.uservoice.com/docs/single-sign-on-how-to for further instructions.
  */
@@ -47,7 +47,8 @@
 /**
  * Launch UserVoice with some user info.
  *
- * This will automatically find or create an account using the supplied info.
+ * This will automatically find or create an account using the supplied info. This is a more convenient
+ * option for standalone iOS apps.
  */
 //- (void)launchFeedbackWithUserInfo {
 //     [UserVoice presentUserVoiceModalViewControllerForParent:self
@@ -64,6 +65,10 @@
  */
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
+}
+
+- (void)userVoiceWasDismissed {
+    NSLog(@"UserVoice dismissed");
 }
 
 @end

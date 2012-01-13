@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UVDelegate.h"
 
-@interface RootViewController : UIViewController {
+@interface RootViewController : UIViewController<UVDelegate> {
 
 }
 

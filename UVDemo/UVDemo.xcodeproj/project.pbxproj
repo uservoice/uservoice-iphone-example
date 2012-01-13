@@ -16,12 +16,6 @@
 		D2D881AB13AB00D800C2BBEE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D881A913AB00D800C2BBEE /* MainWindow.xib */; };
 		D2D881AE13AB00D800C2BBEE /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D881AD13AB00D800C2BBEE /* RootViewController.m */; };
 		D2D881B113AB00D800C2BBEE /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2D881AF13AB00D800C2BBEE /* RootViewController.xib */; };
-		D2D881B813AB00D800C2BBEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819713AB00D800C2BBEE /* UIKit.framework */; };
-		D2D881B913AB00D800C2BBEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819913AB00D800C2BBEE /* Foundation.framework */; };
-		D2D881BA13AB00D800C2BBEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D8819B13AB00D800C2BBEE /* CoreGraphics.framework */; };
-		D2D881C213AB00D800C2BBEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D2D881C013AB00D800C2BBEE /* InfoPlist.strings */; };
-		D2D881C513AB00D800C2BBEE /* UVDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D2D881C413AB00D800C2BBEE /* UVDemoTests.h */; };
-		D2D881C713AB00D800C2BBEE /* UVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2D881C613AB00D800C2BBEE /* UVDemoTests.m */; };
 		D2D881D713AB03FA00C2BBEE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */; };
 		D2D881D913AB041000C2BBEE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2D881D813AB041000C2BBEE /* QuartzCore.framework */; };
 		D912746B14AA367A003ADF5B /* libUserVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D912746A14AA367A003ADF5B /* libUserVoice.a */; };
@@ -90,16 +84,6 @@
 		D9B1D1D314AC27F400D9189F /* uv_vote_chicklet_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D9B1D19514AC27F400D9189F /* uv_vote_chicklet_empty.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		D2D881BB13AB00D800C2BBEE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D2D8818A13AB00D700C2BBEE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D2D8819213AB00D700C2BBEE;
-			remoteInfo = UVDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		D2D8819313AB00D800C2BBEE /* UVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2D8819713AB00D800C2BBEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -115,18 +99,13 @@
 		D2D881AC13AB00D800C2BBEE /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D2D881AD13AB00D800C2BBEE /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		D2D881B013AB00D800C2BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
-		D2D881B713AB00D800C2BBEE /* UVDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UVDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2D881BF13AB00D800C2BBEE /* UVDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UVDemoTests-Info.plist"; sourceTree = "<group>"; };
-		D2D881C113AB00D800C2BBEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D2D881C313AB00D800C2BBEE /* UVDemoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UVDemoTests-Prefix.pch"; sourceTree = "<group>"; };
-		D2D881C413AB00D800C2BBEE /* UVDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UVDemoTests.h; sourceTree = "<group>"; };
-		D2D881C613AB00D800C2BBEE /* UVDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UVDemoTests.m; sourceTree = "<group>"; };
 		D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		D2D881D813AB041000C2BBEE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D912746A14AA367A003ADF5B /* libUserVoice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUserVoice.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98A11F814BB725F00DD25D0 /* UVStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UVStyleSheet.h; path = ../UserVoiceSDK/Include/en.lproj/UVStyleSheet.h; sourceTree = "<group>"; };
 		D98A11F914BB7D9300DD25D0 /* DemoStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoStyleSheet.h; sourceTree = "<group>"; };
 		D98A11FA14BB7D9300DD25D0 /* DemoStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoStyleSheet.m; sourceTree = "<group>"; };
+		D98C0C9114C08613008493F2 /* UserVoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserVoice.h; sourceTree = "<group>"; };
+		D98C0C9214C08613008493F2 /* UVStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVStyleSheet.h; sourceTree = "<group>"; };
 		D9B1D15814AC27F400D9189F /* dropshadow_bottom_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropshadow_bottom_10@2x.png"; sourceTree = "<group>"; };
 		D9B1D15914AC27F400D9189F /* dropshadow_bottom_20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropshadow_bottom_20@2x.png"; sourceTree = "<group>"; };
 		D9B1D15A14AC27F400D9189F /* dropshadow_bottom_30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dropshadow_bottom_30@2x.png"; sourceTree = "<group>"; };
@@ -189,7 +168,7 @@
 		D9B1D19314AC27F400D9189F /* uv_user_chicklet_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_user_chicklet_light.png; sourceTree = "<group>"; };
 		D9B1D19414AC27F400D9189F /* uv_vote_chicklet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_vote_chicklet.png; sourceTree = "<group>"; };
 		D9B1D19514AC27F400D9189F /* uv_vote_chicklet_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_vote_chicklet_empty.png; sourceTree = "<group>"; };
-		D9B1D1ED14B2003D00D9189F /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = en; path = en.lproj/UserVoice.h; sourceTree = "<group>"; };
+		D9F2060114C088FE00F4441E /* UVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,31 +185,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2D881B313AB00D800C2BBEE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2D881B813AB00D800C2BBEE /* UIKit.framework in Frameworks */,
-				D2D881B913AB00D800C2BBEE /* Foundation.framework in Frameworks */,
-				D2D881BA13AB00D800C2BBEE /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D2D8818813AB00D700C2BBEE = {
 			isa = PBXGroup;
 			children = (
-				D9B1D1EB14B2001E00D9189F /* Indexing Headers */,
-				D912746A14AA367A003ADF5B /* libUserVoice.a */,
-				D2D881E213AB28A700C2BBEE /* Resources */,
-				D2D881D813AB041000C2BBEE /* QuartzCore.framework */,
-				D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */,
-				D2D8819D13AB00D800C2BBEE /* UVDemo */,
-				D2D881BD13AB00D800C2BBEE /* UVDemoTests */,
+				D98C0C9014C08613008493F2 /* UVHeaders */,
+				D2D881E213AB28A700C2BBEE /* UVResources */,
+				D2D8819D13AB00D800C2BBEE /* Classes */,
 				D2D8819613AB00D800C2BBEE /* Frameworks */,
 				D2D8819413AB00D800C2BBEE /* Products */,
+				D912746A14AA367A003ADF5B /* libUserVoice.a */,
+				D2D881D613AB03FA00C2BBEE /* SystemConfiguration.framework */,
+				D2D881D813AB041000C2BBEE /* QuartzCore.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,7 +206,6 @@
 			isa = PBXGroup;
 			children = (
 				D2D8819313AB00D800C2BBEE /* UVDemo.app */,
-				D2D881B713AB00D800C2BBEE /* UVDemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,20 +220,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D2D8819D13AB00D800C2BBEE /* UVDemo */ = {
+		D2D8819D13AB00D800C2BBEE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
 				D2D881A613AB00D800C2BBEE /* UVDemoAppDelegate.h */,
 				D2D881A713AB00D800C2BBEE /* UVDemoAppDelegate.m */,
-				D2D881A913AB00D800C2BBEE /* MainWindow.xib */,
 				D2D881AC13AB00D800C2BBEE /* RootViewController.h */,
 				D2D881AD13AB00D800C2BBEE /* RootViewController.m */,
-				D2D881AF13AB00D800C2BBEE /* RootViewController.xib */,
 				D98A11F914BB7D9300DD25D0 /* DemoStyleSheet.h */,
 				D98A11FA14BB7D9300DD25D0 /* DemoStyleSheet.m */,
+				D2D881A913AB00D800C2BBEE /* MainWindow.xib */,
+				D2D881AF13AB00D800C2BBEE /* RootViewController.xib */,
 				D2D8819E13AB00D800C2BBEE /* Supporting Files */,
 			);
-			path = UVDemo;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		D2D8819E13AB00D800C2BBEE /* Supporting Files */ = {
@@ -280,27 +247,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D2D881BD13AB00D800C2BBEE /* UVDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				D2D881C413AB00D800C2BBEE /* UVDemoTests.h */,
-				D2D881C613AB00D800C2BBEE /* UVDemoTests.m */,
-				D2D881BE13AB00D800C2BBEE /* Supporting Files */,
-			);
-			path = UVDemoTests;
-			sourceTree = "<group>";
-		};
-		D2D881BE13AB00D800C2BBEE /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D2D881BF13AB00D800C2BBEE /* UVDemoTests-Info.plist */,
-				D2D881C013AB00D800C2BBEE /* InfoPlist.strings */,
-				D2D881C313AB00D800C2BBEE /* UVDemoTests-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D2D881E213AB28A700C2BBEE /* Resources */ = {
+		D2D881E213AB28A700C2BBEE /* UVResources */ = {
 			isa = PBXGroup;
 			children = (
 				D9B1D15814AC27F400D9189F /* dropshadow_bottom_10@2x.png */,
@@ -366,17 +313,19 @@
 				D9B1D19414AC27F400D9189F /* uv_vote_chicklet.png */,
 				D9B1D19514AC27F400D9189F /* uv_vote_chicklet_empty.png */,
 			);
-			name = Resources;
+			name = UVResources;
 			path = ../UserVoiceSDK/Resources;
 			sourceTree = "<group>";
 		};
-		D9B1D1EB14B2001E00D9189F /* Indexing Headers */ = {
+		D98C0C9014C08613008493F2 /* UVHeaders */ = {
 			isa = PBXGroup;
 			children = (
-				D9B1D1EC14B2003D00D9189F /* UserVoice.h */,
-				D98A11F814BB725F00DD25D0 /* UVStyleSheet.h */,
+				D98C0C9114C08613008493F2 /* UserVoice.h */,
+				D98C0C9214C08613008493F2 /* UVStyleSheet.h */,
+				D9F2060114C088FE00F4441E /* UVDelegate.h */,
 			);
-			name = "Indexing Headers";
+			name = UVHeaders;
+			path = ../UserVoiceSDK/Include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,25 +347,6 @@
 			productName = UVDemo;
 			productReference = D2D8819313AB00D800C2BBEE /* UVDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		D2D881B613AB00D800C2BBEE /* UVDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2D881CD13AB00D800C2BBEE /* Build configuration list for PBXNativeTarget "UVDemoTests" */;
-			buildPhases = (
-				D2D881B213AB00D800C2BBEE /* Sources */,
-				D2D881B313AB00D800C2BBEE /* Frameworks */,
-				D2D881B413AB00D800C2BBEE /* Resources */,
-				D2D881B513AB00D800C2BBEE /* ShellScript */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D2D881BC13AB00D800C2BBEE /* PBXTargetDependency */,
-			);
-			name = UVDemoTests;
-			productName = UVDemoTests;
-			productReference = D2D881B713AB00D800C2BBEE /* UVDemoTests.octest */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -440,7 +370,6 @@
 			projectRoot = "";
 			targets = (
 				D2D8819213AB00D700C2BBEE /* UVDemo */,
-				D2D881B613AB00D800C2BBEE /* UVDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -518,32 +447,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2D881B413AB00D800C2BBEE /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2D881C213AB00D800C2BBEE /* InfoPlist.strings in Resources */,
-				D2D881C513AB00D800C2BBEE /* UVDemoTests.h in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D2D881B513AB00D800C2BBEE /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2D8818F13AB00D700C2BBEE /* Sources */ = {
@@ -557,23 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2D881B213AB00D800C2BBEE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D2D881C713AB00D800C2BBEE /* UVDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D2D881BC13AB00D800C2BBEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D2D8819213AB00D700C2BBEE /* UVDemo */;
-			targetProxy = D2D881BB13AB00D800C2BBEE /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D2D881A013AB00D800C2BBEE /* InfoPlist.strings */ = {
@@ -598,23 +486,6 @@
 				D2D881B013AB00D800C2BBEE /* en */,
 			);
 			name = RootViewController.xib;
-			sourceTree = "<group>";
-		};
-		D2D881C013AB00D800C2BBEE /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2D881C113AB00D800C2BBEE /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		D9B1D1EC14B2003D00D9189F /* UserVoice.h */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D9B1D1ED14B2003D00D9189F /* en */,
-			);
-			name = UserVoice.h;
-			path = ../UserVoiceSDK/Include;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -661,10 +532,10 @@
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UVDemo/UVDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/UVDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "UVDemo/UVDemo-Info.plist";
+				INFOPLIST_FILE = "Classes/UVDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -688,10 +559,10 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UVDemo/UVDemo-Prefix.pch";
+				GCC_PREFIX_HEADER = "Classes/UVDemo-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = "UVDemo/UVDemo-Info.plist";
+				INFOPLIST_FILE = "Classes/UVDemo-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -707,52 +578,6 @@
 				USER_HEADER_SEARCH_PATHS = "$(BUILT_PRODUCTS_DIR)/**";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		D2D881CE13AB00D800C2BBEE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UVDemo.app/UVDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UVDemoTests/UVDemoTests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "UVDemoTests/UVDemoTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		D2D881CF13AB00D800C2BBEE /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UVDemo.app/UVDemo";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UVDemoTests/UVDemoTests-Prefix.pch";
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "UVDemoTests/UVDemoTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
@@ -773,15 +598,6 @@
 			buildConfigurations = (
 				D2D881CB13AB00D800C2BBEE /* Debug */,
 				D2D881CC13AB00D800C2BBEE /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D2D881CD13AB00D800C2BBEE /* Build configuration list for PBXNativeTarget "UVDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D2D881CE13AB00D800C2BBEE /* Debug */,
-				D2D881CF13AB00D800C2BBEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
