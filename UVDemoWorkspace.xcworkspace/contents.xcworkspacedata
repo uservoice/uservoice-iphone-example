@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:UserVoiceSDK/UserVoice.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "container:UVDemo/UVDemo.xcodeproj">
    </FileRef>
 </Workspace>
