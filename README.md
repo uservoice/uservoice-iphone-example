@@ -1,5 +1,3 @@
-# UserVoice iPhone SDK Example App
-
-You will need to run `git submodule update --init` to clone the SDK into the referenced directory.
+# UserVoice iOS SDK Example App
 
 This project has been tested with XCode 4.2.1
