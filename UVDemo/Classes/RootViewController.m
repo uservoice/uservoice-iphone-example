@@ -29,6 +29,13 @@
 												  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
 }
 
+- (void)contactUs {
+    [UserVoice presentUserVoiceContactUsFormForParent:self
+                                              andSite:@"demo.uservoice.com"
+                                               andKey:@"pZJocTBPbg5FN4bAwczDLQ"
+                                            andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+}
+
 /**
  * Launch UserVoice with an SSO token.
  *
