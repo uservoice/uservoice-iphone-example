@@ -14,7 +14,6 @@
 }
 
 - (IBAction)launchFeedback;
-- (IBAction)contactUs;
 //- (IBAction)launchFeedbackWithSso;
 //- (IBAction)launchFeedbackWithUserInfo;
 
