@@ -23,14 +23,10 @@
     // Uncomment this line to see an example of a custom stylesheet
 //    [UVStyleSheet setStyleSheet:[[[DemoStyleSheet alloc] init] autorelease]];
     [UserVoice setDelegate:self];
-//    [UserVoice presentUserVoiceModalViewControllerForParent:self
-//													andSite:@"demo.uservoice.com"
-//													 andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-//												  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
     [UserVoice presentUserVoiceModalViewControllerForParent:self
-													andSite:@"uservoice.us.com:3000"
-													 andKey:@"8L66hVQUQ45TOLl0dA70YA"
-												  andSecret:@"a5e6da1827538a27755a4f4de0602e82533aff73"];
+                                                    andSite:@"demo.uservoice.com"
+                                                     andKey:@"pZJocTBPbg5FN4bAwczDLQ"
+                                                  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
 }
 
 /**
