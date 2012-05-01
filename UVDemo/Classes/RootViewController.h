@@ -15,7 +15,6 @@
 
 - (IBAction)launchFeedback;
 - (IBAction)contactUs;
-//- (IBAction)launchFeedbackWithSso;
-//- (IBAction)launchFeedbackWithUserInfo;
+- (IBAction)viewForum;
 
 @end

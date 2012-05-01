@@ -13,59 +13,38 @@
 @implementation RootViewController
 
 /**
- * Launch UserVoice without a user.
+ * Launch UserVoice without a user. The user will be able to log in or create an account from within the UserVoice UI.
  *
- * The user will be able to log in or create an account from within the UserVoice UI.
+ * See the other factory methods on UVConfig for SSO and email/name/guid options.
  *
  * Generate your own API key and secret under Settings -> Channels -> iOS Apps in the UserVoice admin UI.
  */
 - (void)launchFeedback {
-    // Uncomment this line to see an example of a custom stylesheet
-//    [UVStyleSheet setStyleSheet:[[[DemoStyleSheet alloc] init] autorelease]];
-    [UserVoice setDelegate:self];
-    [UserVoice presentUserVoiceModalViewControllerForParent:self
-													andSite:@"demo.uservoice.com"
-													 andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-												  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+//    [UserVoice setDelegate:self];
+//    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
+    UVConfig *config = [UVConfig configWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+    [UserVoice presentUserVoiceInterfaceForParentViewController:self andConfig:config];
 }
 
+/**
+ * Launch the contact form directly. Does not require a user.
+ */
 - (void)contactUs {
-    [UserVoice presentUserVoiceContactUsFormForParent:self
-                                              andSite:@"demo.uservoice.com"
-                                               andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-                                            andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+//    [UserVoice setDelegate:self];
+//    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
+    UVConfig *config = [[[UVConfig alloc] initWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"] autorelease];
+    [UserVoice presentUserVoiceContactUsFormForParentViewController:self andConfig:config];
 }
 
 /**
- * Launch UserVoice with an SSO token.
- *
- * Use this if you are using SSO to connect your users to UserVoice across multiple platforms.
- *
- * See http://developer.uservoice.com/docs/single-sign-on-how-to for further instructions.
+ * Launch the new suggestion form directly. Will require the user to log in if a user is not passed to the config.
  */
-//- (void)launchFeedbackWithSso {
-//    [UserVoice presentUserVoiceModalViewControllerForParent:self
-//                                                    andSite:@"demo.uservoice.com"
-//                                                     andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-//                                                  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
-//                                                andSsoToken:@"GENERATED SSO TOKEN"];
-//}
-    
-/**
- * Launch UserVoice with some user info.
- *
- * This will automatically find or create an account using the supplied info. This is a more convenient
- * option for standalone iOS apps.
- */
-//- (void)launchFeedbackWithUserInfo {
-//     [UserVoice presentUserVoiceModalViewControllerForParent:self
-//                                                     andSite:@"demo.uservoice.com"
-//                                                      andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-//                                                   andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
-//                                                    andEmail:@"USER EMAIL"
-//                                              andDisplayName:@"USER NAME"
-//                                                     andGUID:@"UNIQUE USER ID"];
-//}
+- (void)viewForum {
+//    [UserVoice setDelegate:self];
+//    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
+    UVConfig *config = [[[UVConfig alloc] initWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"] autorelease];
+    [UserVoice presentUserVoiceForumForParentViewController:self andConfig:config];
+}
 
 /**
  * UserVoice supports any orientation, but will not rotate after launching.
