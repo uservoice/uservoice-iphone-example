@@ -8,13 +8,16 @@
 
 #import <UIKit/UIKit.h>
 #import "UVDelegate.h"
+#import "UVConfig.h"
 
 @interface RootViewController : UIViewController<UVDelegate> {
-
+    UVConfig *uvConfig;
 }
 
+@property (nonatomic, retain) UVConfig *uvConfig;
+
 - (IBAction)launchFeedback;
-//- (IBAction)launchFeedbackWithSso;
-//- (IBAction)launchFeedbackWithUserInfo;
+- (IBAction)contactUs;
+- (IBAction)viewForum;
 
 @end

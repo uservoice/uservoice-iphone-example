@@ -8,67 +8,76 @@
 
 #import "RootViewController.h"
 #import "UserVoice.h"
+#import "UVConfig.h"
 #import "DemoStyleSheet.h"
 
 @implementation RootViewController
 
-/**
- * Launch UserVoice without a user.
- *
- * The user will be able to log in or create an account from within the UserVoice UI.
- *
- * Generate your own API key and secret under Settings -> Channels -> iOS Apps in the UserVoice admin UI.
- */
-- (void)launchFeedback {
-    // Uncomment this line to see an example of a custom stylesheet
-//    [UVStyleSheet setStyleSheet:[[[DemoStyleSheet alloc] init] autorelease]];
-    [UserVoice setDelegate:self];
-    [UserVoice presentUserVoiceModalViewControllerForParent:self
-                                                    andSite:@"demo.uservoice.com"
-                                                     andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-                                                  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+@synthesize uvConfig;
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    
+    // Uncomment this line to use a custom stylesheet
+    // [UVStyleSheet setStyleSheet:[[[DemoStyleSheet alloc] init] autorelease]];
+    
+    // Uncomment this line if you want to be notified when UserVoice is dismissed
+    // [UserVoice setDelegate:self];
+    
+    // Configure UserVoice without any user identification. The user wiill be able to
+    // sign in or create an account from within UserVoice. You can generate your own
+    // API key and secret from Settings -> Channels -> iOS Apps in the UserVoice admin UI.
+    self.uvConfig = [UVConfig configWithSite:@"demo.uservoice.com"
+                                      andKey:@"pZJocTBPbg5FN4bAwczDLQ"
+                                   andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+    
+    // Configure UserVoice with a user's name, email, and guid. Guid can be whatever you
+    // want, but must be unique per user.
+    // self.uvConfig = [UVConfig configWithSite:@"demo.uservoice.com"
+    //                                   andKey:@"pZJocTBPbg5FN4bAwczDLQ"
+    //                                andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
+    //                                 andEmail:@"test@example.com"
+    //                           andDisplayName:@"Test User"
+    //                                  andGUID:@"1234"];
+
+    // Configure UserVoice with a UserVoice SSO token. See http://developer.uservoice.com/docs/single-sign-on-how-to
+    // for instructions on generating a token.
+    // self.uvConfig = [UVConfig configWithSite:@"demo.uservoice.com"
+    //                                   andKey:@"pZJocTBPbg5FN4bAwczDLQ"
+    //                                andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
+    //                              andSSOToken:@"XXXX"];
 }
 
-/**
- * Launch UserVoice with an SSO token.
- *
- * Use this if you are using SSO to connect your users to UserVoice across multiple platforms.
- *
- * See http://developer.uservoice.com/docs/single-sign-on-how-to for further instructions.
- */
-//- (void)launchFeedbackWithSso {
-//    [UserVoice presentUserVoiceModalViewControllerForParent:self
-//                                                    andSite:@"demo.uservoice.com"
-//                                                     andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-//                                                  andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
-//                                                andSsoToken:@"GENERATED SSO TOKEN"];
-//}
-    
-/**
- * Launch UserVoice with some user info.
- *
- * This will automatically find or create an account using the supplied info. This is a more convenient
- * option for standalone iOS apps.
- */
-//- (void)launchFeedbackWithUserInfo {
-//     [UserVoice presentUserVoiceModalViewControllerForParent:self
-//                                                     andSite:@"demo.uservoice.com"
-//                                                      andKey:@"pZJocTBPbg5FN4bAwczDLQ"
-//                                                   andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"
-//                                                    andEmail:@"USER EMAIL"
-//                                              andDisplayName:@"USER NAME"
-//                                                     andGUID:@"UNIQUE USER ID"];
-//}
+// Launch the standard UserVoice UI.
+- (void)launchFeedback {
+    [UserVoice presentUserVoiceInterfaceForParentViewController:self
+                                                      andConfig:self.uvConfig];
+}
 
-/**
- * UserVoice supports any orientation, but will not rotate after launching.
- */
+// Launch UserVoice and go directly to the contact screen.
+- (void)contactUs {
+    [UserVoice presentUserVoiceContactUsFormForParentViewController:self
+                                                          andConfig:self.uvConfig];
+}
+
+// Launch UserVoice and go directly to the forum.
+- (void)viewForum {
+    [UserVoice presentUserVoiceForumForParentViewController:self
+                                                  andConfig:self.uvConfig];
+}
+
+// UserVoice supports any orientation, but currently will not rotate after launching.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
 }
 
 - (void)userVoiceWasDismissed {
     NSLog(@"UserVoice dismissed");
+}
+
+- (void)dealloc {
+    self.uvConfig = nil;
+    [super dealloc];
 }
 
 @end
