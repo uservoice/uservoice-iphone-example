@@ -7,6 +7,7 @@
 //
 
 #import "UVDemoAppDelegate.h"
+#import "UserVoice.h"
 
 @implementation UVDemoAppDelegate
 
@@ -19,8 +20,18 @@
 {
     // Override point for customization after application launch.
     // Add the navigation controller's view to the window and display.
+
+//    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+//    UVConfig *config = [UVConfig configWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+//    UIViewController *uservoice = [UserVoice getUserVoiceInterfaceForConfig:config];
+//    self.navigationController.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Modal" image:nil tag:0] autorelease];
+//    uservoice.tabBarItem = [[[UITabBarItem alloc] initWithTitle:@"Nonmodal" image:nil tag:0] autorelease];
+//    tabBarController.viewControllers = @[self.navigationController, uservoice];
+//    self.window.rootViewController = tabBarController;
+    
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

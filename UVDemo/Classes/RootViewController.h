@@ -16,5 +16,6 @@
 - (IBAction)launchFeedback;
 - (IBAction)contactUs;
 - (IBAction)viewForum;
+- (IBAction)postIdea;
 
 @end

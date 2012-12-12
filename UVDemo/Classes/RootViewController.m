@@ -1,4 +1,4 @@
-//
+
 //  RootViewController.m
 //  UVDemo
 //
@@ -12,6 +12,17 @@
 
 @implementation RootViewController
 
+- (UVConfig *)uvConfig {
+    UVConfig *config = [UVConfig configWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
+//    config.topicId = 4656;
+//    config.customFields = [NSDictionary dictionaryWithObjectsAndKeys:@"Support Request", @"Type", @"Mobile", @"Platform", nil];
+//    config.showContactUs = NO;
+//    config.showForum = NO;
+//    config.showPostIdea = NO;
+//    config.showKnowledgeBase = NO;
+    return config;
+}
+
 /**
  * Launch UserVoice without a user. The user will be able to log in or create an account from within the UserVoice UI.
  *
@@ -20,10 +31,14 @@
  * Generate your own API key and secret under Settings -> Channels -> iOS Apps in the UserVoice admin UI.
  */
 - (void)launchFeedback {
+//    Class uservoice = NSClassFromString(@"UserVoice");
+//    if (uservoice != nil && [uservoice respondsToSelector:@selector(setExternalId:forScope:)]) {
+//        [uservoice performSelector:@selector(setExternalId:forScope:) withObject:@"123" withObject:@"crittercism"];
+//    }
+    
 //    [UserVoice setDelegate:self];
 //    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
-    UVConfig *config = [UVConfig configWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"];
-    [UserVoice presentUserVoiceInterfaceForParentViewController:self andConfig:config];
+    [UserVoice presentUserVoiceInterfaceForParentViewController:self andConfig:[self uvConfig]];
 }
 
 /**
@@ -32,8 +47,7 @@
 - (void)contactUs {
 //    [UserVoice setDelegate:self];
 //    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
-    UVConfig *config = [[[UVConfig alloc] initWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"] autorelease];
-    [UserVoice presentUserVoiceContactUsFormForParentViewController:self andConfig:config];
+    [UserVoice presentUserVoiceContactUsFormForParentViewController:self andConfig:[self uvConfig]];
 }
 
 /**
@@ -42,8 +56,11 @@
 - (void)viewForum {
 //    [UserVoice setDelegate:self];
 //    [UVStyleSheet setStyleSheet:[[DemoStyleSheet alloc] init]];
-    UVConfig *config = [[[UVConfig alloc] initWithSite:@"demo.uservoice.com" andKey:@"pZJocTBPbg5FN4bAwczDLQ" andSecret:@"Q7UKcxRYLlSJN4CxegUYI6t0uprdsSAGthRIDvYmI"] autorelease];
-    [UserVoice presentUserVoiceForumForParentViewController:self andConfig:config];
+    [UserVoice presentUserVoiceForumForParentViewController:self andConfig:[self uvConfig]];
+}
+
+- (void)postIdea {
+    [UserVoice presentUserVoiceNewIdeaFormForParentViewController:self andConfig:[self uvConfig]];
 }
 
 /**
