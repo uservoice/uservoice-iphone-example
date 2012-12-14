@@ -42,4 +42,8 @@
     return [UIColor whiteColor];
 }
 
+- (UIColor *)navigationBarTintColor {
+    return [UIColor blackColor];
+}
+
 @end
