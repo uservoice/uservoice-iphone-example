@@ -37,6 +37,10 @@
     [UserVoice presentUserVoiceForumForParentViewController:self andConfig:[self uvConfig]];
 }
 
+- (void)postIdea {
+    [UserVoice presentUserVoiceNewIdeaFormForParentViewController:self andConfig:[self uvConfig]];
+}
+
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
 }
