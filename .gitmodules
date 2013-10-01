@@ -1,3 +1,6 @@
 [submodule "UserVoiceSDK"]
 	path = UserVoiceSDK
 	url = git://github.com/uservoice/uservoice-iphone-sdk.git
+[submodule "Frameworks/PonyDebugger"]
+	path = Frameworks/PonyDebugger
+	url = git://github.com/square/PonyDebugger.git

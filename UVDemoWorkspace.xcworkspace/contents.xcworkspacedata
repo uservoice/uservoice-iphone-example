@@ -5,6 +5,6 @@
       location = "group:UserVoiceSDK/UserVoice.xcodeproj">
    </FileRef>
    <FileRef
-      location = "container:UVDemo/UVDemo.xcodeproj">
+      location = "group:UVDemo2/UVDemo2.xcodeproj">
    </FileRef>
 </Workspace>
