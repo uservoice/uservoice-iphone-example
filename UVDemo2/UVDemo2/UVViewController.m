@@ -13,6 +13,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    UVConfig *config = [UVConfig configWithSite:@"uservoice.us.com:3000"];
     UVConfig *config = [UVConfig configWithSite:@"demo.uservoice.com"];
     [UserVoice initialize:config];
 }
