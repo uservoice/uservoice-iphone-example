@@ -1,0 +1,10 @@
+PODS:
+  - uservoice-iphone-sdk (3.0.0)
+
+DEPENDENCIES:
+  - uservoice-iphone-sdk (~> 3.0)
+
+SPEC CHECKSUMS:
+  uservoice-iphone-sdk: e1095d383714b85a448c521d64e1f222a1b0186a
+
+COCOAPODS: 0.29.0

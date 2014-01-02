@@ -8,12 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UVDemoAppDelegate : NSObject <UIApplicationDelegate> {
+@interface UVDemoAppDelegate : UIResponder <UIApplicationDelegate>
 
-}
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (strong, nonatomic) UIWindow *window;
 
 @end
