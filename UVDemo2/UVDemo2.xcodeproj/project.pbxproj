@@ -14,27 +14,16 @@
 		D90A986717FDCBF700C2BE84 /* UserVoice.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90A984A17FDCBF700C2BE84 /* UserVoice.strings */; };
 		D90A986817FDCBF700C2BE84 /* UserVoice.strings in Resources */ = {isa = PBXBuildFile; fileRef = D90A984D17FDCBF700C2BE84 /* UserVoice.strings */; };
 		D90A986917FDCBF700C2BE84 /* uv_article@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A984F17FDCBF700C2BE84 /* uv_article@2x.png */; };
-		D90A986A17FDCBF700C2BE84 /* uv_default_avatar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985017FDCBF700C2BE84 /* uv_default_avatar@2x.png */; };
 		D90A986B17FDCBF700C2BE84 /* uv_idea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985117FDCBF700C2BE84 /* uv_idea@2x.png */; };
-		D90A986C17FDCBF700C2BE84 /* uv_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985217FDCBF700C2BE84 /* uv_logo@2x.png */; };
-		D90A986D17FDCBF700C2BE84 /* uv_vote_chicklet_empty@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985317FDCBF700C2BE84 /* uv_vote_chicklet_empty@2x.png */; };
-		D90A986E17FDCBF700C2BE84 /* uv_vote_chicklet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985417FDCBF700C2BE84 /* uv_vote_chicklet@2x.png */; };
-		D90A986F17FDCBF700C2BE84 /* uv_x@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985517FDCBF700C2BE84 /* uv_x@2x.png */; };
 		D90A987017FDCBF700C2BE84 /* uv_article.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985617FDCBF700C2BE84 /* uv_article.png */; };
-		D90A987117FDCBF700C2BE84 /* uv_default_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985717FDCBF700C2BE84 /* uv_default_avatar.png */; };
 		D90A987217FDCBF700C2BE84 /* uv_idea.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985817FDCBF700C2BE84 /* uv_idea.png */; };
-		D90A987317FDCBF700C2BE84 /* uv_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985917FDCBF700C2BE84 /* uv_logo.png */; };
-		D90A987417FDCBF700C2BE84 /* uv_vote_chicklet.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985A17FDCBF700C2BE84 /* uv_vote_chicklet.png */; };
-		D90A987517FDCBF700C2BE84 /* uv_vote_chicklet_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985B17FDCBF700C2BE84 /* uv_vote_chicklet_empty.png */; };
-		D90A987617FDCBF700C2BE84 /* uv_x.png in Resources */ = {isa = PBXBuildFile; fileRef = D90A985C17FDCBF700C2BE84 /* uv_x.png */; };
 		D90A987717FDCBF700C2BE84 /* UVConfig.h in Resources */ = {isa = PBXBuildFile; fileRef = D90A985E17FDCBF700C2BE84 /* UVConfig.h */; };
 		D90A987817FDCBF700C2BE84 /* UserVoice.h in Resources */ = {isa = PBXBuildFile; fileRef = D90A985F17FDCBF700C2BE84 /* UserVoice.h */; };
 		D90A987917FDCBF700C2BE84 /* UVStyleSheet.h in Resources */ = {isa = PBXBuildFile; fileRef = D90A986017FDCBF700C2BE84 /* UVStyleSheet.h */; };
 		D90A987A17FDCBF700C2BE84 /* UVDelegate.h in Resources */ = {isa = PBXBuildFile; fileRef = D90A986117FDCBF700C2BE84 /* UVDelegate.h */; };
-		D90A987C17FDD70B00C2BE84 /* libUserVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90A987B17FDD70B00C2BE84 /* libUserVoice.a */; };
-		D944262817FA2AF5002F716B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944262717FA2AF5002F716B /* Foundation.framework */; };
+		D944262817FA2AF5002F716B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944262717FA2AF5002F716B /* Foundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D944262A17FA2AF5002F716B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944262917FA2AF5002F716B /* CoreGraphics.framework */; };
-		D944262C17FA2AF5002F716B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944262B17FA2AF5002F716B /* UIKit.framework */; };
+		D944262C17FA2AF5002F716B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944262B17FA2AF5002F716B /* UIKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D944263217FA2AF5002F716B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D944263017FA2AF5002F716B /* InfoPlist.strings */; };
 		D944263417FA2AF5002F716B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D944263317FA2AF5002F716B /* main.m */; };
 		D944263817FA2AF5002F716B /* UVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D944263717FA2AF5002F716B /* UVAppDelegate.m */; };
@@ -44,8 +33,8 @@
 		D944264317FA2AF5002F716B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D944264217FA2AF5002F716B /* Images.xcassets */; };
 		D944266017FA2B15002F716B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944265F17FA2B15002F716B /* QuartzCore.framework */; };
 		D944266217FA2B1D002F716B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D944266117FA2B1D002F716B /* SystemConfiguration.framework */; };
+		D99668F0197EB249002C2D2A /* libUserVoice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D99668EF197EB249002C2D2A /* libUserVoice.a */; };
 		D9E8B6A117FE1426003C7E07 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = D9E8B6A017FE1426003C7E07 /* bg.png */; };
-		D9ECEB5D184E4D200005F331 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ECEB5C184E4D200005F331 /* libTestFlight.a */; };
 		D9ECEB5F184E4DA30005F331 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ECEB5E184E4DA30005F331 /* libz.dylib */; };
 		D9F2103F18524B7900E0F51B /* uv_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F2103D18524B7900E0F51B /* uv_heart@2x.png */; };
 		D9F2104018524B7900E0F51B /* uv_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F2103E18524B7900E0F51B /* uv_heart.png */; };
@@ -59,19 +48,9 @@
 		D90A984917FDCBF700C2BE84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = UserVoice.strings; sourceTree = "<group>"; };
 		D90A984C17FDCBF700C2BE84 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = UserVoice.strings; sourceTree = "<group>"; };
 		D90A984F17FDCBF700C2BE84 /* uv_article@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_article@2x.png"; sourceTree = "<group>"; };
-		D90A985017FDCBF700C2BE84 /* uv_default_avatar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_default_avatar@2x.png"; sourceTree = "<group>"; };
 		D90A985117FDCBF700C2BE84 /* uv_idea@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_idea@2x.png"; sourceTree = "<group>"; };
-		D90A985217FDCBF700C2BE84 /* uv_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_logo@2x.png"; sourceTree = "<group>"; };
-		D90A985317FDCBF700C2BE84 /* uv_vote_chicklet_empty@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_vote_chicklet_empty@2x.png"; sourceTree = "<group>"; };
-		D90A985417FDCBF700C2BE84 /* uv_vote_chicklet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_vote_chicklet@2x.png"; sourceTree = "<group>"; };
-		D90A985517FDCBF700C2BE84 /* uv_x@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_x@2x.png"; sourceTree = "<group>"; };
 		D90A985617FDCBF700C2BE84 /* uv_article.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_article.png; sourceTree = "<group>"; };
-		D90A985717FDCBF700C2BE84 /* uv_default_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_default_avatar.png; sourceTree = "<group>"; };
 		D90A985817FDCBF700C2BE84 /* uv_idea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_idea.png; sourceTree = "<group>"; };
-		D90A985917FDCBF700C2BE84 /* uv_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_logo.png; sourceTree = "<group>"; };
-		D90A985A17FDCBF700C2BE84 /* uv_vote_chicklet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_vote_chicklet.png; sourceTree = "<group>"; };
-		D90A985B17FDCBF700C2BE84 /* uv_vote_chicklet_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_vote_chicklet_empty.png; sourceTree = "<group>"; };
-		D90A985C17FDCBF700C2BE84 /* uv_x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_x.png; sourceTree = "<group>"; };
 		D90A985E17FDCBF700C2BE84 /* UVConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVConfig.h; sourceTree = "<group>"; };
 		D90A985F17FDCBF700C2BE84 /* UserVoice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserVoice.h; sourceTree = "<group>"; };
 		D90A986017FDCBF700C2BE84 /* UVStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVStyleSheet.h; sourceTree = "<group>"; };
@@ -95,11 +74,8 @@
 		D944264917FA2AF5002F716B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D944265F17FA2B15002F716B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D944266117FA2B1D002F716B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D99668EF197EB249002C2D2A /* libUserVoice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUserVoice.a; path = "../../../Downloads/MADuservoice-ios-sdk-e005e97d60e0f51ddfedb51a35bad17406b2b7c5/build/Debug-iphoneos/libUserVoice.a"; sourceTree = "<group>"; };
 		D9E8B6A017FE1426003C7E07 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
-		D9ECEB59184E4D190005F331 /* TestFlight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		D9ECEB5A184E4D190005F331 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
-		D9ECEB5B184E4D190005F331 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
-		D9ECEB5C184E4D200005F331 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
 		D9ECEB5E184E4DA30005F331 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D9F2103D18524B7900E0F51B /* uv_heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "uv_heart@2x.png"; sourceTree = "<group>"; };
 		D9F2103E18524B7900E0F51B /* uv_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uv_heart.png; sourceTree = "<group>"; };
@@ -110,10 +86,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D99668F0197EB249002C2D2A /* libUserVoice.a in Frameworks */,
 				D9ECEB5F184E4DA30005F331 /* libz.dylib in Frameworks */,
-				D90A987C17FDD70B00C2BE84 /* libUserVoice.a in Frameworks */,
 				D944266217FA2B1D002F716B /* SystemConfiguration.framework in Frameworks */,
-				D9ECEB5D184E4D200005F331 /* libTestFlight.a in Frameworks */,
 				D944266017FA2B15002F716B /* QuartzCore.framework in Frameworks */,
 				D944262A17FA2AF5002F716B /* CoreGraphics.framework in Frameworks */,
 				D944262C17FA2AF5002F716B /* UIKit.framework in Frameworks */,
@@ -184,19 +159,9 @@
 				D90A984B17FDCBF700C2BE84 /* en.lproj */,
 				D90A984E17FDCBF700C2BE84 /* fr.lproj */,
 				D90A984F17FDCBF700C2BE84 /* uv_article@2x.png */,
-				D90A985017FDCBF700C2BE84 /* uv_default_avatar@2x.png */,
 				D90A985117FDCBF700C2BE84 /* uv_idea@2x.png */,
-				D90A985217FDCBF700C2BE84 /* uv_logo@2x.png */,
-				D90A985317FDCBF700C2BE84 /* uv_vote_chicklet_empty@2x.png */,
-				D90A985417FDCBF700C2BE84 /* uv_vote_chicklet@2x.png */,
-				D90A985517FDCBF700C2BE84 /* uv_x@2x.png */,
 				D90A985617FDCBF700C2BE84 /* uv_article.png */,
-				D90A985717FDCBF700C2BE84 /* uv_default_avatar.png */,
 				D90A985817FDCBF700C2BE84 /* uv_idea.png */,
-				D90A985917FDCBF700C2BE84 /* uv_logo.png */,
-				D90A985A17FDCBF700C2BE84 /* uv_vote_chicklet.png */,
-				D90A985B17FDCBF700C2BE84 /* uv_vote_chicklet_empty.png */,
-				D90A985C17FDCBF700C2BE84 /* uv_x.png */,
 			);
 			name = UVResources;
 			path = ../UserVoiceSDK/Resources;
@@ -217,10 +182,6 @@
 		D944261B17FA2AF5002F716B = {
 			isa = PBXGroup;
 			children = (
-				D9ECEB5C184E4D200005F331 /* libTestFlight.a */,
-				D9ECEB59184E4D190005F331 /* TestFlight.h */,
-				D9ECEB5A184E4D190005F331 /* TestFlight+AsyncLogging.h */,
-				D9ECEB5B184E4D190005F331 /* TestFlight+ManualSessions.h */,
 				D90A985D17FDCBF700C2BE84 /* UVResources */,
 				D90A986217FDCBF700C2BE84 /* UVHeaders */,
 				D944262D17FA2AF5002F716B /* UVDemo2 */,
@@ -240,6 +201,7 @@
 		D944262617FA2AF5002F716B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D99668EF197EB249002C2D2A /* libUserVoice.a */,
 				D9ECEB5E184E4DA30005F331 /* libz.dylib */,
 				D90A987B17FDD70B00C2BE84 /* libUserVoice.a */,
 				D944266117FA2B1D002F716B /* SystemConfiguration.framework */,
@@ -306,7 +268,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = UV;
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = UserVoice;
 				TargetAttributes = {
 					D944262317FA2AF5002F716B = {
@@ -340,34 +302,24 @@
 				D90A986817FDCBF700C2BE84 /* UserVoice.strings in Resources */,
 				D90A987017FDCBF700C2BE84 /* uv_article.png in Resources */,
 				D90A986717FDCBF700C2BE84 /* UserVoice.strings in Resources */,
-				D90A986E17FDCBF700C2BE84 /* uv_vote_chicklet@2x.png in Resources */,
 				D90A986417FDCBF700C2BE84 /* UserVoice.strings in Resources */,
-				D90A987617FDCBF700C2BE84 /* uv_x.png in Resources */,
 				D90A986917FDCBF700C2BE84 /* uv_article@2x.png in Resources */,
 				D90A986517FDCBF700C2BE84 /* UserVoice.strings in Resources */,
-				D90A987417FDCBF700C2BE84 /* uv_vote_chicklet.png in Resources */,
 				D90A986317FDCBF700C2BE84 /* UserVoice.strings in Resources */,
 				D90A987817FDCBF700C2BE84 /* UserVoice.h in Resources */,
 				D90A987717FDCBF700C2BE84 /* UVConfig.h in Resources */,
 				D9F2104018524B7900E0F51B /* uv_heart.png in Resources */,
-				D90A986A17FDCBF700C2BE84 /* uv_default_avatar@2x.png in Resources */,
-				D90A987517FDCBF700C2BE84 /* uv_vote_chicklet_empty.png in Resources */,
 				D944263E17FA2AF5002F716B /* Main_iPad.storyboard in Resources */,
-				D90A986F17FDCBF700C2BE84 /* uv_x@2x.png in Resources */,
 				D90A987217FDCBF700C2BE84 /* uv_idea.png in Resources */,
 				D944264317FA2AF5002F716B /* Images.xcassets in Resources */,
 				D90A986B17FDCBF700C2BE84 /* uv_idea@2x.png in Resources */,
-				D90A986D17FDCBF700C2BE84 /* uv_vote_chicklet_empty@2x.png in Resources */,
 				D90A987A17FDCBF700C2BE84 /* UVDelegate.h in Resources */,
 				D944263B17FA2AF5002F716B /* Main_iPhone.storyboard in Resources */,
 				D9E8B6A117FE1426003C7E07 /* bg.png in Resources */,
 				D90A986617FDCBF700C2BE84 /* UserVoice.strings in Resources */,
 				D9F2103F18524B7900E0F51B /* uv_heart@2x.png in Resources */,
-				D90A986C17FDCBF700C2BE84 /* uv_logo@2x.png in Resources */,
-				D90A987117FDCBF700C2BE84 /* uv_default_avatar.png in Resources */,
 				D944263217FA2AF5002F716B /* InfoPlist.strings in Resources */,
 				D90A987917FDCBF700C2BE84 /* UVStyleSheet.h in Resources */,
-				D90A987317FDCBF700C2BE84 /* uv_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +418,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -481,6 +432,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -506,7 +458,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -539,7 +490,6 @@
 		D944265A17FA2AF5002F716B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -551,13 +501,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UVDemo2/UVDemo2-Prefix.pch";
 				INFOPLIST_FILE = "UVDemo2/UVDemo2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/UVDemoWorkspace-aodbuenycsnfqhgkkaxaekngoiil/Build/Products/Release-iphoneos",
 					"/Users/austin/code/ios-example/UVDemo2",
+					"/Users/austin/Downloads/MADuservoice-ios-sdk-e005e97d60e0f51ddfedb51a35bad17406b2b7c5/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uservoice.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -567,11 +519,10 @@
 		D944265B17FA2AF5002F716B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
@@ -579,13 +530,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UVDemo2/UVDemo2-Prefix.pch";
 				INFOPLIST_FILE = "UVDemo2/UVDemo2-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/UVDemoWorkspace-aodbuenycsnfqhgkkaxaekngoiil/Build/Products/Release-iphoneos",
 					"/Users/austin/code/ios-example/UVDemo2",
+					"/Users/austin/Downloads/MADuservoice-ios-sdk-e005e97d60e0f51ddfedb51a35bad17406b2b7c5/build/Debug-iphoneos",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.uservoice.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;

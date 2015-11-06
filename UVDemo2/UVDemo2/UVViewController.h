@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserVoice.h"
 
-@interface UVViewController : UIViewController
+@interface UVViewController : UIViewController<UVDelegate>
 
 - (IBAction)launchUserVoice:(id)sender;
 - (IBAction)launchForum:(id)sender;

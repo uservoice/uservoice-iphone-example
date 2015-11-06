@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "ED1494E51003453E0727FDD06E279C514E0F15E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "ED1494E51003453E0727FDD06E279C514E0F15E8" : 0,
+    "285D543319EEB38B059014F34D43A79D66C1ECDC" : 0,
+    "42190680-DC09-4491-B5D5-7F840250F6F0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C6D02D7F-0E41-45A4-AFAB-75102EB745ED",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "ED1494E51003453E0727FDD06E279C514E0F15E8" : "ios-example",
+    "285D543319EEB38B059014F34D43A79D66C1ECDC" : "ios-example\/UserVoiceSDK",
+    "42190680-DC09-4491-B5D5-7F840250F6F0" : "ios-example\/Frameworks\/PonyDebugger"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UVDemoWorkspace",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UVDemoWorkspace.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/github.com\/uservoice\/uservoice-iphone-sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "285D543319EEB38B059014F34D43A79D66C1ECDC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/square\/PonyDebugger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42190680-DC09-4491-B5D5-7F840250F6F0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/uservoice\/uservoice-iphone-example.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "ED1494E51003453E0727FDD06E279C514E0F15E8"
+    }
+  ]
+}

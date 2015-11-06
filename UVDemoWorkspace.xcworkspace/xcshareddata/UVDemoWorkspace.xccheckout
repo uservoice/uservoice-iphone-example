@@ -2,51 +2,45 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>C6D02D7F-0E41-45A4-AFAB-75102EB745ED</string>
 	<key>IDESourceControlProjectName</key>
 	<string>UVDemoWorkspace</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>285D543319EEB38B059014F34D43A79D66C1ECDC</key>
+		<string>ssh://github.com/uservoice/uservoice-iphone-sdk.git</string>
 		<key>42190680-DC09-4491-B5D5-7F840250F6F0</key>
 		<string>git://github.com/square/PonyDebugger.git</string>
-		<key>64D1C994-12F7-48EB-8494-6C8E73A35917</key>
+		<key>ED1494E51003453E0727FDD06E279C514E0F15E8</key>
 		<string>https://github.com/uservoice/uservoice-iphone-example.git</string>
-		<key>7D7EF526-D3C7-4FA3-B6B0-B804082A347E</key>
-		<string>ssh://github.com/uservoice/uservoice-iphone-sdk.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>UVDemoWorkspace.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>285D543319EEB38B059014F34D43A79D66C1ECDC</key>
+		<string>../UserVoiceSDK</string>
 		<key>42190680-DC09-4491-B5D5-7F840250F6F0</key>
 		<string>../Frameworks/PonyDebugger</string>
-		<key>64D1C994-12F7-48EB-8494-6C8E73A35917</key>
+		<key>ED1494E51003453E0727FDD06E279C514E0F15E8</key>
 		<string>..</string>
-		<key>7D7EF526-D3C7-4FA3-B6B0-B804082A347E</key>
-		<string>../UserVoiceSDK</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/uservoice/uservoice-iphone-example.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>64D1C994-12F7-48EB-8494-6C8E73A35917</string>
+	<string>ED1494E51003453E0727FDD06E279C514E0F15E8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>7D7EF526-D3C7-4FA3-B6B0-B804082A347E</string>
-			<key>IDESourceControlWCCName</key>
-			<string>UserVoiceSDK</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>64D1C994-12F7-48EB-8494-6C8E73A35917</string>
+			<string>ED1494E51003453E0727FDD06E279C514E0F15E8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ios-example</string>
 		</dict>
@@ -57,6 +51,14 @@
 			<string>42190680-DC09-4491-B5D5-7F840250F6F0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PonyDebugger</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>285D543319EEB38B059014F34D43A79D66C1ECDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>UserVoiceSDK</string>
 		</dict>
 	</array>
 </dict>
