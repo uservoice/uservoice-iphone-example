@@ -1,10 +1,16 @@
 PODS:
-  - uservoice-iphone-sdk (3.0.0)
+  - uservoice-iphone-sdk (3.2.12)
 
 DEPENDENCIES:
   - uservoice-iphone-sdk (~> 3.0)
 
-SPEC CHECKSUMS:
-  uservoice-iphone-sdk: e1095d383714b85a448c521d64e1f222a1b0186a
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - uservoice-iphone-sdk
 
-COCOAPODS: 0.29.0
+SPEC CHECKSUMS:
+  uservoice-iphone-sdk: 4b82c3fb1fc335567aefa2314ee99a864bfac60c
+
+PODFILE CHECKSUM: 4ecc6ec7bb442d67c1e9ce2e8c751cb5d037eda9
+
+COCOAPODS: 1.5.3
